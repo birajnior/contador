@@ -1,0 +1,46 @@
+@media (max-width: 640px) {
+    body {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        margin-top: 8rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    p {
+        color: #114238;
+        align-items: center;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .btn {
+        display: flex;
+        color: #114238;
+        border-radius: 50%;
+        border: 2px solid #0a6e5a;
+        height: 30px;
+        width: 30px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bolder;
+        font-size: 1em;
+        justify-content: center;
+        text-align: center;        
+    }
+
+    #currentNumber {
+        display: flex;
+        margin: 0 10px;
+        align-items: center;
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+
+   
+}
