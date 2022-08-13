@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+body {
+    background: rgb(34,130,111);
+    background: linear-gradient(90deg, rgba(34,130,111,1) 4%, rgba(44,168,143,0.9164040616246498) 70%, rgba(54,207,176,1) 95%);
+    display: flex;
+    margin-top: 12rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+h1 {
+    color: #114238;
+    font-weight: bolder;
+    
+}
+
+p {
+    color: #114238;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #114238;
+    border-radius: 50%;
+    border: 2px solid #0a6e5a;
+    height: 40px;
+    width: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+.btn:hover {
+    color: #36CFB0;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+#current {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    margin: 0 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+footer {
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+   
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #114238;
+}
+
+.socials a i {
+    font-size: 1.4rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: #36CFB0;
+}
